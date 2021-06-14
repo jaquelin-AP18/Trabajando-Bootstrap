@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <title>Aprendiendo Bootstrap</title>
+    </head>
+    <body>
+        <header>
+                <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                    <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carrusel</font></font></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Casa </font></font><span class="sr-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(Actual)</font></font></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enlace</font></font></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discapacitado</font></font></a>
+                            </li>
+                        </ul>
+                        <form class="form-inline mt-2 mt-md-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buscar</font></font></button>
+                        </form>
+                    </div>
+                </nav>
+        </header>
+
+        <main role="main">
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active carousel-item-left">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption text-left">
+                      <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título de ejemplo.</font></font></h1>
+                      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contenido de marcador de posición representativo para la primera diapositiva del carrusel.</font></font></p>
+                      <p><a class="btn btn-lg btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Regístrate hoy</font></font></a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item carousel-item-next carousel-item-left">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Otro título de ejemplo.</font></font></h1>
+                      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contenido de marcador de posición representativo para la segunda diapositiva del carrusel.</font></font></p>
+                      <p><a class="btn btn-lg btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Aprende más</font></font></a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" role="img" aria-label=" :  " preserveAspectRatio="xMidYMid slice" focusable="false"><title> </title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em"> </text></svg>
+          
+                  <div class="container">
+                    <div class="carousel-caption text-right">
+                      <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Uno más por si acaso.</font></font></h1>
+                      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contenido de marcador de posición representativo para la tercera diapositiva de este carrusel.</font></font></p>
+                      <p><a class="btn btn-lg btn-primary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Examinar la galería</font></font></a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Anterior</font></font></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">próximo</font></font></span>
+              </a>
+            </div>
+          
+          
+            <!-- Marketing messaging and featurettes
+            ================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+          
+            <div class="container marketing">
+          
+              <!-- Three columns of text below the carousel -->
+              <div class="row">
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 140 x 140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bóveda</font></font></h2>
+                  <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contenido de marcador de posición representativo para las tres columnas de texto debajo del carrusel. </font><font style="vertical-align: inherit;">Esta es la primera columna.</font></font></p>
+                  <p><a class="btn btn-secondary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver detalles "</font></font></a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 140 x 140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bóveda</font></font></h2>
+                  <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Otro contenido interesante de marcador de posición representativo. </font><font style="vertical-align: inherit;">Esta vez, pasamos a la segunda columna.</font></font></p>
+                  <p><a class="btn btn-secondary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver detalles "</font></font></a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 140 x 140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+          
+                  <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bóveda</font></font></h2>
+                  <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Y, por último, esta, la tercera columna de contenido de marcador de posición representativo.</font></font></p>
+                  <p><a class="btn btn-secondary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver detalles "</font></font></a></p>
+                </div><!-- /.col-lg-4 -->
+              </div><!-- /.row -->
+          
+          
+              <!-- START THE FEATURETTES -->
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Título del primer reportaje. </font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Te dejará boquiabierto.</font></font></span></h2>
+                  <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Un gran contenido de marcador de posición para la primera característica aquí. </font><font style="vertical-align: inherit;">Imagínese una prosa emocionante aquí.</font></font></p>
+                </div>
+                <div class="col-md-5">
+                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 500 x 500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          
+                </div>
+              </div>
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                  <h2 class="featurette-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oh, sí, es tan bueno. </font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver por ti mismo.</font></font></span></h2>
+                  <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">¿Otro featurette? </font><font style="vertical-align: inherit;">Por supuesto. </font><font style="vertical-align: inherit;">Más contenido de marcador de posición aquí para darle una idea de cómo funcionaría este diseño con contenido real del mundo real en su lugar.</font></font></p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 500 x 500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          
+                </div>
+              </div>
+          
+              <hr class="featurette-divider">
+          
+              <div class="row featurette">
+                <div class="col-md-7">
+                  <h2 class="featurette-heading"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Y por último, este. </font></font><span class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mate.</font></font></span></h2>
+                  <p class="lead"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Y sí, este es el último bloque de contenido de marcador de posición representativo. </font><font style="vertical-align: inherit;">Una vez más, no está realmente pensado para ser leído, simplemente aquí para darle una mejor vista de cómo se vería esto con algo de contenido real. </font><font style="vertical-align: inherit;">Tu contenido.</font></font></p>
+                </div>
+                <div class="col-md-5">
+                  <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marcador de posición: 500 x 500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+          
+                </div>
+              </div>
+          
+              <hr class="featurette-divider">
+          
+              <!-- /END THE FEATURETTES -->
+          
+            </div><!-- /.container -->
+          
+          
+            <!-- FOOTER -->
+            <footer class="container">
+              <p class="float-right"><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Volver arriba</font></font></a></p>
+              <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">© 2017-2021 Company, Inc. · </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Privacidad</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> · </font></font><a href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Condiciones</font></font></a></p>
+            </footer>
+          </main>
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>
